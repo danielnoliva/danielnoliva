@@ -1,0 +1,128 @@
+
+.navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
+  background-color: #3e3e3b!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 1rem;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.portion {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.portion.landing {
+  height: 70vh;
+  background-image: url("../../assets/img/back.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  .landing .text-heading {
+    color: #000000;
+    text-align: left;
+    padding-left: 30px;
+  }
+}
+
+.landing .text-heading {
+  color: #000000;
+}
+
+#about {
+  background-color: #ebeced;
+  color: #000000;
+}
+
+section .title {
+  text-align: center;
+}
+
+#about p {
+  padding: 6px 0 0 0;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.skill-logo {
+  width: 80px;
+  margin: 13px 0;
+}
+
+#skills {
+  background: #3e3e3b;
+  color: #fff;
+  text-align: center;
+}
+
+#projects {
+  text-align: center;
+  background-color: #4c586f;
+  color: #ffffff;
+}
+
+.single {
+  padding-top: 20px;
+}
+
+.wrapper {
+  background-color: #333;
+}
+
+.small-logo {
+  width: 47px;
+  margin: 5px 0;
+}
+
+.project-img {
+  width: 100%;
+  padding-bottom: 13px;
+}
+
+.project {
+  background: #3e3e3b;
+  margin-top: 2rem;
+}
+
+.card-text {
+  margin-top: 20px;
+}
+
+#profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#about-title {
+  margin-top: 20px;
+}
+
+#contact {
+  background: #cbc5c1;
+  text-align: center;
+}
+
+.icon {
+  font-size: 2rem;
+  padding-right: 13px;
+}
+
+.contact-mean {
+  text-align: left;
+}
+
+.contact-text {
+  display: inline-block;
+  vertical-align: super;
+}
+
