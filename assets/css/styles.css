@@ -254,6 +254,9 @@ section .title {
   .card-text {
     font-size: 1.5rem;
   }
+  .small-logo {
+    width: 72px;
+}
 
   #about p {
     font-size: 1.7rem;
