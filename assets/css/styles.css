@@ -205,10 +205,6 @@ section .title {
   }
 }
 
-@media (min-width: 768px) {
-
-}
-
 
 @media (min-width: 992px) {
   .landing .text-heading {
@@ -226,15 +222,10 @@ section .title {
   .card-text {
     font-size: 1.5rem;
   }
-}
-@media (min-width: 1200px) {
-  .card-link.project-links {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 1200px) {
   #about p {
     font-size: 1.7rem;
+  }
+  .card-link.project-links {
+    font-size: 1.5rem;
   }
 }
