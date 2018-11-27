@@ -42,11 +42,7 @@ section .title {
   font-size: 1.1rem;
 }
 
-@media (min-width: 1200px) {
-  #about p {
-    font-size: 1.7rem;
-  }
-}
+
 
 .skill-logo {
   width: 90%;
@@ -94,11 +90,6 @@ section .title {
   margin-top: 2rem;
 }
 
-@media (min-width: 768px) {
-  .project {
-    padding: 1rem 0;
-  }
-}
 
 .card-text {
   margin-top: 20px;
@@ -153,11 +144,6 @@ section .title {
   text-decoration: underline;
 }
 
-@media (min-width: 1200px) {
-  .card-link.project-links {
-    font-size: 1.5rem;
-  }
-}
 
 .contact-text a {
   color: #7ad1b5;
@@ -168,57 +154,50 @@ section .title {
   .skill-area {
     font-size: 2.2rem;
   }
-}
-
-@media (min-width: 576px) {
   .card-title {
     font-size: 2.2rem;
   }
-}
-
-@media (min-width: 576px) {
   .project-img {
     width: 93%;
     padding-bottom: 13px;
   }
-}
-
-@media (min-width: 576px) {
   .skill-logo {
     width: 75%;
   }
 }
 
+
 @media (min-width: 768px) {
+  .project {
+    padding: 1rem 0;
+  }
   .card-text {
     grid-column: 1/3;
     width: 90%;
   }
-}
-
-@media (min-width: 768px) {
+  .small-logo {
+    max-width: 60px;
+  }
   .tech {
     height: 100%;
     width: 100%;
   }
-}
-
-@media (min-width: 768px) {
-  .small-logo {
-    max-width: 60px;
+  .medium-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 25px 21px;
   }
-}
-
-@media (min-width: 768px) {
   .col.col-3 {
     -ms-flex: 0 0 33%;
     flex: 0 0 33%;
     max-width: 33%;
     padding: 0;
   }
-}
-
-@media (min-width: 768px) {
+  .card-title {
+    grid-column: 1/3;
+  }
   .project-img {
     padding-bottom: 0;
     width: 100%;
@@ -227,20 +206,9 @@ section .title {
 }
 
 @media (min-width: 768px) {
-  .medium-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    grid-gap: 25px 21px;
-  }
+
 }
 
-@media (min-width: 768px) {
-  .card-title {
-    grid-column: 1/3;
-  }
-}
 
 @media (min-width: 992px) {
   .landing .text-heading {
@@ -259,4 +227,14 @@ section .title {
     font-size: 1.5rem;
   }
 }
+@media (min-width: 1200px) {
+  .card-link.project-links {
+    font-size: 1.5rem;
+  }
+}
 
+@media (min-width: 1200px) {
+  #about p {
+    font-size: 1.7rem;
+  }
+}
