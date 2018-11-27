@@ -24,16 +24,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.landing .text-heading {
+  color: #000000;
+}
+
 @media (min-width: 992px) {
   .landing .text-heading {
     color: #000000;
     text-align: left;
     padding-left: 30px;
   }
-}
-
-.landing .text-heading {
-  color: #000000;
 }
 
 #about {
@@ -43,6 +43,8 @@ body {
 
 section .title {
   text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
 }
 
 #about p {
@@ -52,9 +54,16 @@ section .title {
 }
 
 .skill-logo {
-  width: 100%;
+  width: 90%;
+  max-width: 103px;
   margin: 13px 0;
   padding: 0px;
+}
+
+@media (min-width: 576px) {
+  .skill-logo {
+    width: 75%;
+  }
 }
 
 #skills {
@@ -65,7 +74,7 @@ section .title {
 
 #projects {
   text-align: center;
-  background-color: #ebeced;
+  background-color: #cbc5c1;
   color: #ffffff;
 }
 
@@ -112,8 +121,9 @@ section .title {
 }
 
 #contact {
-  background: #cbc5c1;
+  background: #3e3e3b;
   text-align: center;
+  color: #fff;
 }
 
 .icon {
@@ -146,5 +156,16 @@ section .title {
 .card-link.project-links {
   color: #7ad1b5;
   text-decoration: underline;
+}
+
+.contact-text a {
+  color: #7ad1b5;
+  text-decoration: underline;
+}
+
+@media (min-width: 576px) {
+  .skill-area {
+    font-size: 2.2rem;
+  }
 }
 
